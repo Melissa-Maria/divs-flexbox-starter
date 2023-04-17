@@ -110,6 +110,18 @@ body {
   color: black;
 }
 
+header, footer, main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+header {
+    color: rgb(49, 27, 101);
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -132,6 +144,11 @@ body {
 .div-1, .div-2 {
     border-right: 2px solid black;
     padding: 20px;
+}
+
+footer {
+    font-style: italic;
+    text-decoration: underline;
 }
 
 
